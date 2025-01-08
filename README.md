@@ -8,7 +8,7 @@
 <h2>Tools Used</h2>
 
 - <b>Ms Excel</b> 
-- <b>Matlab (Neural Network Toolbox)</b
+- <b>Matlab (Neural Network Toolbox)</b>
 
 
 <h2>Methodology and Workflow</h2>
@@ -16,11 +16,20 @@
 
 <p align="center">
 <br/>
-<img src="" height="50%" width="50%">
+<img src="https://github.com/Maira-Nurul/Optimizing-Inventory-Value-in-a-Leading-Oil-Company-with-ANN/blob/main/Docs%203/Screenshot%202025-01-08%20175511.png" height="50%" width="50%">
 <br />
 
-<p align="justify"> The MATLAB Neural Network Toolbox with backpropagation training was used for forecasting to streamline data processing. This method is chosen for its suitability with time series data.  Forecast result will then be used to calculate inventory value</p>
+<p align="justify"> The MATLAB Neural Network Toolbox with backpropagation training was used for forecasting to streamline data processing. This method is chosen for its suitability with time series data.  Forecast result will then be used to calculate inventory value.</p>
 
 
 <h2>Results</h2>
+Based on the analysis, the following result has been found
 
+<p align="center">
+<br/>
+<img src="https://github.com/Maira-Nurul/Optimizing-Inventory-Value-in-a-Leading-Oil-Company-with-ANN/blob/main/Docs%203/Screenshot%202025-01-08%20175558.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+
+- <p align="justify">Inventory values for Gasket Sheet, Valve Ball, and Various Bearing increased, with the highest rise seen in Valve Ball due to higher demand from unit replacements and maintenance activities. Intermittent demand for Valve Ball further raised its min-max parameters, despite not being consistently needed every year. Increased demand over the last 4 years caused higher stock parameters for Gasket Sheet and Various Bearing to maintain service levels. Seven other commodities saw a decrease in inventory levels due to reduced demand, which led to parameter adjustments to avoid surplus and lower inventory. Analysis also revealed that inventory levels would be lower with contracts, as these contracts shorten lead time. The review resulted in a negative savings of $2,591,035.64 (58% increase) when contracts were in place, and a larger increase of $4,093,582.86 (91%) without contracts.</p>
+- <p align="justify">Forecasted demand using the ANN method was applied to calculate new stock parameters for Valve Ball. The analysis showed that inventory value increased from $1,263,201.96 (existing conditions) to $5,576,593.78 with average historical demand under contract (LTC), and $2,165,509.72 with forecasted demand under LTC. Although the inventory value increased, the rise was less significant compared to the existing method, as ANN better adjusted stock parameters for intermittent and fluctuating demand. <b>Overall, inventory value decreased by $820,048.42 (18%) with forecasted demand under contract and increased by 35% without contracts. It is recommended that the company secure procurement contracts for all 10 commodities.<b></p>
